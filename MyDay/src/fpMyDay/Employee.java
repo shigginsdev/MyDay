@@ -23,16 +23,21 @@ public class Employee implements fpMyDay {
     
     public void startTime()
     {
+        //get the system time
     }
     
     public void endTime()
     {
+        //get the system time
     }
     
     public void getActiveApplication()
     {
+        //which application is the user accessing
+        
     }
     
+        
     public void printStatements()
     {
         System.out.println("User:" + emp_workstationName);
