@@ -10,6 +10,17 @@ package fpMyDay;
  */
 public class Employee implements fpMyDay {
     
+    String emp_workstationName;
+    String emp_department;
+    String emp_emailAddr;
+           
+    public Employee (String workstation, String department, String email)
+    {
+        emp_workstationName = workstation;
+        emp_department = department;
+        emp_emailAddr = email;
+    }
+    
     public void startTime()
     {
     }
@@ -26,10 +37,6 @@ public class Employee implements fpMyDay {
     {
         System.out.println("User:" + emp_workstationName);
     }
-    
-    String emp_workstationName;
-    String emp_department;
-    String emp_emailAddr;
-           
+        
     
 }
