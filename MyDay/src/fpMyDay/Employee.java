@@ -8,6 +8,7 @@ package fpMyDay;
  * Date: 8/8/2013
  * @author shiggins
  * another git test
+ * 8/12 git test after cloning from home
  */
 public class Employee implements fpMyDay {
     
